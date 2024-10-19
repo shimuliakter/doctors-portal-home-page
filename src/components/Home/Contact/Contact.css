@@ -1,0 +1,25 @@
+textarea{
+    resize: none;
+}
+.contact-section{
+    background-image: url(../../../images/appointment.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.contact-section::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    top: 0;
+    opacity: 0.9;
+    z-index: 10;
+}
+.contact-index{
+    position: relative;
+    z-index: 50;
+}

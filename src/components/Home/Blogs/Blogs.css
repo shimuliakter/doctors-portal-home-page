@@ -1,0 +1,27 @@
+.blog-img{
+    margin-right: -20px;
+}
+.blog{
+    width: 295px;
+    height: 245px;
+    position: relative;
+    transition: 0.3s;
+}
+.upper-layer{
+    position: absolute;
+    background: linear-gradient(to right, #18d2b4, #10cfe5);
+    width: 295px;
+    height: 245px;
+    padding: 10px;
+    padding-top: 15%;
+    color: white;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.blog:hover .upper-layer{
+    display: block;
+}
+
+
+

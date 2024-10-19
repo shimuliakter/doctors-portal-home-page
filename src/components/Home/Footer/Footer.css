@@ -1,0 +1,40 @@
+.footer-container{
+ background-image: url(../../../images/footer-bg.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.main-part{
+    margin-top: 35px;
+}
+.footer-title{
+    color: #18d3b6;
+}
+.footer-link a{
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+    display: block;
+    margin-top: 12px;
+}
+.footer-link a:hover{
+    text-decoration: underline;
+}
+.footer-icon{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    border-radius: 50%;
+}
+.brand-icon{
+    border: 1px solid #18d3b6;
+    border-radius: 50%;
+    color: #18d3b6;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+.brand-icon:hover{
+    background-color: #18d3b6;
+    color: white;
+    transform: translateY(-10px);
+}
